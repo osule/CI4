@@ -1,5 +1,8 @@
 # CodeIgniter 4 Application Starter
 
+## Purpose
+
+A dockerized setup of CI4 to allow quick running of experiments.
 
 ## Build image
 
@@ -15,5 +18,5 @@ docker run --rm -it --publish 18080:18080 -v "$(pwd)/app:/usr/src/app/app" -w '/
 
 ## Test AJAX request.
 
-Navigate to [http://localhost:18080/home/ajax](http://localhost:18080/home/ajax) in browser.
+Navigate to [http://localhost:18080/home/exp_ajax](http://localhost:18080/home/ajax) in browser.
 

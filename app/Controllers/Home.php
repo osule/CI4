@@ -9,12 +9,12 @@ class Home extends BaseController
         return view('welcome_message');
     }
 
-    public function ajax()
+    public function exp_ajax()
     {
-        return view('ajax');
+        return view('exp_ajax');
     }
 
-    public function test()
+    public function exp_ajax_result()
     {
         $json = $this->request->getJSON(true);
 

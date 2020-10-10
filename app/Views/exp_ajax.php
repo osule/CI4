@@ -6,12 +6,12 @@
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-  <div id="result">Performing HTTP POST request to /home/test/ ...</div>
+  <div id="result">Performing HTTP POST request to /home/exp-AJAX/ ...</div>
   <script>
     document.body.onload = function() {
       $result = document.querySelector('#result');
         axios.post(
-          '/home/test/',
+          '/home/exp_ajax_result/',
           { sample_key: 'sample_value' }
         )
         .then(response => {
